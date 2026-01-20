@@ -1,0 +1,34 @@
+{
+  "stories": [
+    {
+      "title": "Quiz",
+      "created": 1768337328723,
+      "submissionHistory": {},
+      "versions": [
+        "8caa1d76-5cec-4fc5-8362-97beb2fb114e"
+      ],
+      "versioningMode": "git",
+      "id": "6a5135d4-b666-4254-858f-66cd97f1d50f"
+    }
+  ],
+  "versions": [
+    {
+      "storyId": "6a5135d4-b666-4254-858f-66cd97f1d50f",
+      "name": "draft",
+      "wordCount": 0,
+      "created": 1768337329360,
+      "statistics": {},
+      "branch": "draft1",
+      "id": "8caa1d76-5cec-4fc5-8362-97beb2fb114e"
+    }
+  ],
+  "backups": [
+    {
+      "timestamp": 1768337337293,
+      "localPath": "...\\Documents\\Babel\\babel-2026-01-13.backup.zip",
+      "cloudProviders": [],
+      "id": "6243174d-4aeb-4940-9d52-6bc690ea602c"
+    }
+  ],
+  "activity": []
+}

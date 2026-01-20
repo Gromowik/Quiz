@@ -1,0 +1,178 @@
+[
+  [
+    {
+      "id": "q1",
+      "type" : "radio",
+      "question": "Was ist ein React-Hook?",
+      "options": ["Eine CSS-Regel", "Eine JavaScript-Funktion", "Ein HTML-Tag", "Ein Bildformat"],
+      "correct": "Eine JavaScript-Funktion"
+    },
+    {
+      "id": "q2",
+      "type": "radio",
+      "question": "Welcher Hook wird verwendet, um Zustand zu speichern?",
+      "options": ["useEffect", "useState", "useContext", "useRef"],
+      "correct": "useState"
+    },
+    {
+      "id": "q3",
+      "type": "checkbox",
+      "question": "Welche Hooks können für Nebenwirkungen verwendet werden? (Mehrfachauswahl)",
+      "options": ["useEffect", "useState", "useLayoutEffect", "useRef"],
+      "correct": ["useEffect", "useLayoutEffect"]
+    },
+    {
+      "id": "q4",
+      "type": "input",
+      "question": "Wie heißt der Hook für Seiteneffekte?",
+      "correct": "useEffect"
+    },
+    {
+      "id": "q5",
+      "type"    : "input",
+      "question": "Wie teilt man Zustand zwischen Komponenten? (Hook)",
+      "correct": "useContext"
+    }
+  ],
+  [
+    {
+      "id" : "q6",
+      "type": "radio",
+      "question": "Welcher Hook wird verwendet, um auf DOM-Elemente zuzugreifen?",
+      "options": ["useRef", "useState", "useEffect", "useMemo"],
+      "correct": "useRef"
+    },
+    {
+      "id": "q7",
+      "type": "radio",
+      "question": "Welcher Hook wird verwendet, um Werte zu speichern, die sich nicht neu berechnen sollen?",
+      "options": ["useMemo", "useEffect", "useState", "useRef"],
+      "correct": "useMemo"
+    },
+    {
+      "id": "q8",
+      "type": "checkbox",
+      "question": "Welche Hooks sind im Standard-React enthalten? (Mehrfachauswahl)",
+      "options": ["useState", "useEffect", "useReducer", "useFetch"],
+      "correct": ["useState", "useEffect", "useReducer"]
+    },
+    {
+      "id": "q9",
+      "type": "input",
+      "question": "Wie heißt der Hook für das Speichern von Zustand?",
+      "correct": "useState"
+    },
+    {
+      "id": "q10",
+      "type": "input",
+      "question": "Wie nennt man das Konzept, wenn ein Kind-Komponente Daten an eine Eltern-Komponente sendet?",
+      "correct": "Lifting State Up"
+    }
+  ],
+  [
+    {
+      "id": "q11",
+      "type": "radio",
+      "question": "Welcher Hook wird verwendet, um einen Wert zu speichern, der sich nur bei bestimmten Abhängigkeiten ändert?",
+      "options": ["useMemo", "useEffect", "useState", "useRef"],
+      "correct": "useMemo"
+    },
+    {
+      "id": "q12",
+      "type": "radio",
+      "question": "Welcher Hook wird verwendet, um einen Wert zwischen Renderzyklen zu behalten?",
+      "options": ["useRef", "useState", "useEffect", "useMemo"],
+      "correct": "useRef"
+    },
+    {
+      "id": "q13",
+      "type": "checkbox",
+      "question": "Welche Hooks sind für Performance-Optimierung gedacht? (Mehrfachauswahl)",
+      "options": ["useMemo", "useCallback", "useEffect", "useState"],
+      "correct": ["useMemo", "useCallback"]
+    },
+    {
+      "id": "q14",
+      "type": "input",
+      "question": "Wie heißt der Hook für das Ausführen von Code nach jedem Render?",
+      "correct": "useEffect"
+    },
+    {
+      "id": "q15",
+      "type": "input",
+      "question": "Wie nennt man das Konzept, wenn Props durch viele Komponenten weitergereicht werden?",
+      "correct": "Props-Drilling"
+    }
+  ],
+  [
+    {
+      "id": "q16",
+      "type": "radio",
+      "question": "Welcher Hook wird verwendet, um einen Wert zu speichern, der sich bei jedem Render ändert?",
+      "options": ["useState", "useEffect", "useRef", "useMemo"],
+      "correct": "useState"
+    },
+    {
+      "id": "q17",
+      "type": "radio",
+      "question": "Welcher Hook wird verwendet, um einen Wert zu speichern, der sich nicht bei jedem Render ändert?",
+      "options": ["useRef", "useState", "useEffect", "useMemo"],
+      "correct" : "useRef"
+    },
+    {
+      "id": "q18",
+      "type": "checkbox",
+      "question": "Welche Hooks sind für Zustand gedacht? (Mehrfachauswahl)",
+      "options": ["useState", "useReducer", "useEffect", "useMemo"],
+      "correct": ["useState", "useReducer"]
+    },
+    {
+      "id": "q19",
+      "type": "input",
+      "question": "Wie heißt der Hook für das Ausführen von Code nach bestimmten Abhängigkeiten?",
+      "correct": "useEffect"
+    },
+    {
+      "id": "q20",
+      "type": "input",
+      "question": "Wie nennt man das Konzept, wenn Zustand in einer Eltern-Komponente gespeichert wird?",
+      "correct": "Lifting State Up"
+    }
+  ],
+  [
+    {
+      "id": "q21",
+      "type": "radio",
+      "question": "Welcher Hook wird verwendet, um einen Wert zu speichern, der sich nur bei bestimmten Abhängigkeiten ändert?",
+      "options": ["useMemo", "useEffect", "useState", "useRef"],
+      "correct": "useMemo"
+    },
+    {
+      "id": "q22",
+      "type": "radio",
+      "question": "Welcher Hook wird verwendet, um einen Wert zwischen Renderzyklen zu behalten?",
+      "options": ["useRef", "useState", "useEffect", "useMemo"],
+      "correct": "useRef"
+    },
+    {
+      "id": "q23",
+      "type": "checkbox",
+      "question": "Welche Hooks sind für Performance-Optimierung gedacht? (Mehrfachauswahl)",
+      "options": ["useMemo", "useCallback", "useEffect", "useState"],
+      "correct": ["useMemo", "useCallback"]
+    },
+    {
+      "id": "q24",
+      "type": "input",
+      "question": "Wie heißt der Hook für das Ausführen von Code nach jedem Render?",
+      "correct": "useEffect"
+    },
+    {
+      "id": "q25",
+      "type": "input",
+      "question": "Wie nennt man das Konzept, wenn Props durch viele Komponenten weitergereicht werden?",
+      "correct": "Props-Drilling"
+    }
+  ]
+]
+

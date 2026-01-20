@@ -1,0 +1,77 @@
+[
+  [
+    {
+      "id": "q1",
+      "type": "checkbox",
+      "question": "Welches CSS-Attribut setzt die Textfarbe?",
+      "options": ["background-color", "color", "font-color", "text-color"],
+      "correct": ["color"]
+    },
+    {
+      "id": "q2",
+      "type": "checkbox",
+      "question": "Wie wählt man alle Elemente mit der Klasse 'container'?",
+      "options": [".container", "#container", "container", "*container*"],
+      "correct": [".container"]
+    },
+    {
+      "id": "q3",
+      "type": "input",
+      "question": "Wie lautet die CSS-Eigenschaft für die Hintergrundfarbe?",
+      "correct": "background-color"
+    },
+    {
+      "id": "q4",
+      "type": "input",
+      "question": "Wie macht man Text fett in CSS? (Eigenschaft)",
+      "correct": "font-weight"
+    },
+    {
+      "id": "q5",
+      "type": "checkbox",
+      "question": "Wie wendet man eine CSS-Datei in HTML an?",
+      "options": [
+        "<style src='style.css'>",
+        "<link rel='stylesheet' href='style.css'>",
+        "<css href='style.css'>",
+        "<stylesheet>style.css</stylesheet>"
+      ],
+      "correct": ["<link rel='stylesheet' href='style.css'>"]
+    }
+  ],
+  [
+    {
+      "id": "q6",
+      "type": "checkbox",
+      "question": "Wie wählt man alle <p>-Elemente aus?",
+      "options": ["p {}", ".p {}", "#p {}", "*p {}"],
+      "correct": ["p {}"]
+    },
+    {
+      "id": "q7",
+      "type": "checkbox",
+      "question": "Welche Eigenschaft zentriert Text?",
+      "options": ["text-align", "center", "align", "font-center"],
+      "correct": ["text-align"]
+    },
+    {
+      "id": "q8",
+      "type": "input",
+      "question": "Wie lautet die CSS-Eigenschaft für Schriftgröße?",
+      "correct": "font-size"
+    },
+    {
+      "id": "q9",
+      "type": "input",
+      "question": "Wie macht man Text kursiv? (Eigenschaft)",
+      "correct": "font-style"
+    },
+    {
+      "id": "q10",
+      "type": "checkbox",
+      "question": "Wie macht man einen Rahmen um ein Element?",
+      "options": ["border", "outline", "frame", "box"],
+      "correct": ["border"]
+    }
+  ]
+]

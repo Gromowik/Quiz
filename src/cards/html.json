@@ -1,0 +1,16 @@
+[
+  [
+    {"id":"q1","type":"radio","question":"Was ist das richtige HTML-Tag für die größte Überschrift?","options":["<heading>","<h1>","<h6>","<head>"],"correct":"<h1>"},
+    {"id":"q2","type":"radio","question":"Welches Attribut wird verwendet, um einen Link zu öffnen?","options":["src","href","link","ref"],"correct":"href"},
+    {"id":"q3","type":"input","question":"Wie lautet das HTML-Tag für einen Absatz?","correct":"<p>"},
+    {"id":"q4","type":"input","question":"Wie beginnt man ein HTML-Dokument? (Tag)","correct":"<html>"},
+    {"id":"q5","type":"radio","question":"Welches Tag wird für ein Bild verwendet?","options":["<img>","<picture>","<src>","<image>"],"correct":"<img>"}
+  ],
+  [
+    {"id":"q6","type":"radio","question":"Welches Tag wird für eine geordnete Liste verwendet?","options":["<ul>","<ol>","<li>","<list>"],"correct":"<ol>"},
+    {"id":"q7","type":"radio","question":"Welches Attribut macht ein Eingabefeld erforderlich?","options":["required","checked","placeholder","readonly"],"correct":"required"},
+    {"id":"q8","type":"input","question":"Wie lautet das Tag für einen Link?","correct":"<a>"},
+    {"id":"q9","type":"input","question":"Wie bindet man ein Stylesheet ein? (Tag)","correct":"<link>"},
+    {"id":"q10","type":"radio","question":"Welches Tag wird für Tabellenzellen verwendet?","options":["<td>","<tr>","<th>","<table>"],"correct":"<td>"}
+  ]
+]
