@@ -4,19 +4,12 @@
 import { useEffect, useState, useContext } from "react";
 import useQuiz from "../components/useQuiz";
 import { QuizContext } from "../components/QuizContext";
+import { useQuizCards } from "../components/useQuizCards";
 
-const useReactCards = () => {
-  const [cards, setCards] = useState([]);
-  useEffect(() => {
-    fetch("/src/cards/react.json")
-      .then((res) => res.json())
-      .then(setCards);
-  }, []);
-  return cards;
-};
+ 
 
 const ReactQuiz = () => {
-  const cards = useReactCards();
+  const cards = useQuizCards("react");
   const [activeCard, setActiveCard] = useState(0);
   const questions = cards[activeCard] || [];
   const { answers, submitAnswer, score } = useQuiz("react", cards.flat());
