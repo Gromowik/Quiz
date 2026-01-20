@@ -1,0 +1,72 @@
+[
+  [
+    {
+        "id":"q1",
+    "type":"radio",
+    "question":"Wie deklariert man eine Variable in JavaScript?",
+    "options":["var myVar;","variable myVar;","v myVar;","int myVar;"],
+    "correct":"var myVar;"
+},
+    {
+        "id":"q2",
+    "type":"radio",
+    "question":"Welcher Operator wird für die Addition verwendet?",
+    "options":["+","-","*","/"],
+    "correct":"+"
+},
+    {
+        "id":"q3",
+    "type":"input",
+    "question":"Wie gibt man etwas in der Konsole aus? (Befehl)",
+    "correct":"console.log"
+},
+    {
+        "id":"q4",
+
+    "type":"input",
+    "question":"Wie schreibt man eine Funktion in JavaScript? (Schlüsselwort)",
+    "correct":"function"
+},
+    {
+        "id":"q5",
+    "type":"radio",
+    "question":"Wie kann man ein Array in JavaScript deklarieren?",
+    "options":["let arr = []","let arr = {}","let arr = ()","let arr = <>"],
+    "correct":"let arr = []"
+}
+  ],
+  [
+    {
+        "id":"q6",
+    "type":"radio",
+    "question":"Wie kann man eine Schleife in JavaScript schreiben?",
+    "options":["for","loop","repeat","cycle"],
+    "correct":"for" },
+    {
+        "id":"q7",
+    "type":"radio",
+    "question":"Wie prüft man Gleichheit in JavaScript?",
+    "options":["=","==","===","!="],
+    "correct":"==="
+},
+    {
+        "id":"q8",
+    "type":"input",
+    "question":"Wie kommentiert man eine einzelne Zeile?",
+    "correct":"//"  },
+
+    {
+        "id":"q9",
+    "type":"input",
+    "question":"Wie gibt man eine Warnung in der Konsole aus? (Befehl)",
+    "correct":"console.warn" 
+},
+    {
+        "id":"q10",
+    "type":"radio",
+    "question":"Wie kann man ein Objekt in JavaScript deklarieren?",
+    "options":["let obj = {}","let obj = []","let obj = ()","let obj = <>"],
+    "correct":"let obj = {}" 
+}
+  ]
+]

@@ -7,13 +7,15 @@ import { useEffect, useState } from "react";
  */
 export const useQuizCards = (theme) => {
   const [cards, setCards] = useState([]);
-  
+
   useEffect(() => {
-    fetch(`/src/cards/${theme}.json`)
+    fetch(`/cards/${theme}.json`)
       .then((res) => res.json())
       .then(setCards)
-      .catch((err) => console.error(`Fehler beim Laden der ${theme} Karten:`, err));
+      .catch((err) =>
+        console.error(`Fehler beim Laden der ${theme} Karten:`, err)
+      );
   }, [theme]);
-  
+
   return cards;
 };
