@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 /**
- * unique hook zum laden von quiz-karten aus json-dateien
+ * Hook zum Laden von Quiz-Karten aus JSON-Dateien
  * @param {string} theme - Name des Themas (css, html, js, react)
  * @returns {Array} Array von Karten mit Fragen
  */

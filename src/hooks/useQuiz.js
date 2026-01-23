@@ -1,5 +1,5 @@
 import { useState, useEffect, useContext } from "react";
-import { QuizContext } from "./QuizContext";
+import { QuizContext } from "../components/QuizContext";
 
 /**
  * Hook für Quiz-Logik und Punktzahlberechnung
@@ -41,4 +41,3 @@ export default function useQuiz(quizName, questions) {
     score,
   };
 }
-
